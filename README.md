@@ -3,7 +3,7 @@ only YAML Configuration.
 ```
 EMAIL Sending
   . Sample mail
-  . Send Strictured mail
+  . Send Structured mail
   . Email with attached files
 SSM/MMS Sending
   . Simple sms
