@@ -1,5 +1,5 @@
 mail:
-  localhost = "smtp.gmail.com" # default gmail host
-  port = 587 # default port
-  user_name = "****@gmail.com" # user mail id
-  password = "****" # user password
+  localhost : "smtp.gmail.com" # default gmail host
+  port : 587 # default port
+  user_name : "****@gmail.com" # user mail id
+  password : "****" # user password
