@@ -1,4 +1,15 @@
 # python
 only YAML Configuration.
-
-User can send mails and SMS/MMS using python
+```
+EMAIL Sending
+  . Sample mail
+  . Send Strictured mail
+  . Email with attached files
+SSM/MMS Sending
+  . Simple sms
+  . Simeple MMS
+  . OTP generator
+OS operations
+  . Files
+  . Parameters 
+```
