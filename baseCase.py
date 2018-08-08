@@ -5,15 +5,16 @@ import os
 class baseCase():
     email = {}
     '''get file location'''
-    def get_template_path(path):
+    def get_template_path(self, path):
         file_path = os.path.join(os.getcwd(), path)
         if not os.path.isfile(file_path):
             raise Exception('File Path Not Exist')
         else:
             return file_path
-    
+
+    '''read yaml file'''
     def read_yaml(self, file):
-        file = get_template_path(file)
+        file = self.get_template_path(file)
         with open(file, 'r') as stream:
             try:
                 self.email = yaml.load(stream)
